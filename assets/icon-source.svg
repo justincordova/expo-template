@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>Expo Starter app icon</title>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="224" fill="url(#background)" />
+  <path fill="#ffffff" d="M512 232 798 398v328L512 892 226 726V398zm0 98-201 116v232l201 116 201-116V446z" />
+  <circle cx="512" cy="562" r="92" fill="#ffffff" />
+</svg>
