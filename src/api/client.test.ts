@@ -1,4 +1,4 @@
-import { ApiError, apiFetch } from '../../src/api/client';
+import { ApiError, apiFetch } from './client';
 
 describe('apiFetch', () => {
   const originalApiBaseUrl = process.env.EXPO_PUBLIC_API_BASE_URL;

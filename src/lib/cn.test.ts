@@ -1,4 +1,4 @@
-import { cn } from '../../src/lib/cn';
+import { cn } from './cn';
 
 describe('cn', () => {
   it('joins truthy class names', () => {

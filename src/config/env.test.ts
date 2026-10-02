@@ -1,4 +1,4 @@
-import { loadPublicEnv } from '../../src/config/env';
+import { loadPublicEnv } from './env';
 
 describe('loadPublicEnv', () => {
   it('returns the configured public API URL', () => {
