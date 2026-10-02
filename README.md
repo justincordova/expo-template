@@ -47,10 +47,15 @@ src/
   hooks/      Reusable React hooks
   lib/        Framework-agnostic helpers
   store/      Global client state when an app needs it
+  test/       Shared test setup, render helpers, mocks, fixtures, and providers only
   types/      Shared TypeScript types
-__tests__/    Tests kept outside app/ so Expo Router does not treat them as routes
 assets/       Native app icons, splash assets, and imported media
 ```
+
+Tests are colocated with the code they cover (for example, `src/lib/cn.ts` and
+`src/lib/cn.test.ts`). Keep test files out of `src/app/`, where Expo Router treats
+files as routes. Use `src/test/` only for shared test setup, render helpers, mocks,
+fixtures, and providers.
 
 Use the `@/` alias for imports from `src/`:
 
